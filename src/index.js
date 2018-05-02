@@ -8,6 +8,8 @@ import PostsNew from './components/posts_new';
 import reducers from './reducers';
 import ReduxPromise from 'redux-promise';
 import PostsShow from './components/posts_show';
+// import Thunk from 'thunk';
+// import Logger from 'react-logger';
 
 const createStoreWithMiddleware = applyMiddleware(ReduxPromise)(createStore);
 
